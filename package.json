@@ -1,0 +1,27 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Desafío del programa Oracle One de Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daldev14/-challenge-oracle-one-alurageek.git"
+  },
+  "keywords": [
+    "alura",
+    "oracle",
+    "one",
+    "challenge",
+    "challengeonealurageeklatam4",
+    "alurageek"
+  ],
+  "author": "Daniel Amaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daldev14/-challenge-oracle-one-alurageek/issues"
+  },
+  "homepage": "https://github.com/daldev14/-challenge-oracle-one-alurageek#readme"
+}
