@@ -1,0 +1,146 @@
+.header {
+}
+
+.header-navbar-container {
+  background-color: var(--bg-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* 8px */
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem; /* 3.2px */
+}
+
+.header-logo-svg {
+  width: 20%;
+}
+
+.header-title {
+  display: flex;
+  color: var(--color-blue);
+  font-weight: 700;
+  font-size: 0.875rem; /* 14px */
+}
+
+.header-title-span {
+  color: var(--color-gray);
+}
+
+.header-search {
+  display: none;
+}
+
+.header-container-button {
+  width: 8.313rem; /* 132px */
+  text-align: center;
+}
+
+.navbar-button-icon-mobil {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* 16px */
+}
+
+.header-search-mobil {
+  color: var(--color-gray);
+}
+
+.header-button {
+  width: 100%;
+  border: 0.063rem solid var(--color-blue); /* 1px */
+  padding: 0.75rem 1rem; /* 12px 16px */
+  font-size: 0.875rem; /* 14px */
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 360px) {
+  .header-logo-svg {
+    width: 24%;
+  }
+
+  .header-title {
+    font-size: 1.2rem; /* 19px */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-search {
+    display: flex;
+    width: 17rem; /* 272px */
+    position: relative;
+  }
+
+  .header-logo-svg {
+    width: 26%;
+  }
+
+  .header-title {
+    font-size: 1.4rem; /* 22px */
+  }
+
+  .header-search-input {
+    width: 100%;
+    font-size: inherit;
+    background-color: var(--bg-primary);
+    border-radius: 1.25rem; /* 20px */
+    padding: 0.5rem 1rem; /* 8px 16px */
+  }
+
+  .header-search-input::placeholder {
+    font-size: 0.875rem; /* 14px */
+    color: var(--color-placeholder);
+  }
+
+  .header-search-input {
+    outline: none;
+  }
+
+  .header-search-icon {
+    position: absolute;
+    top: 50%;
+    right: 1.5rem; /* 24px */
+    transform: translateY(-50%);
+    color: var(--color-placeholder);
+  }
+
+  .header-container-button {
+    width: 10.375rem; /* 166px */
+  }
+
+  .header-search-mobil {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-search {
+    width: 23.75rem; /* 380px */
+  }
+
+  .header-logo-search {
+    gap: 1rem; /* 16px */
+  }
+
+  .header-logo-svg {
+    width: auto;
+  }
+
+  .header-container-button {
+    width: 11.375rem; /* 182px */
+  }
+
+  .header-button {
+    font-size: 1rem; /* 16px */
+    padding: 1rem; /* 16px */
+  }
+}
