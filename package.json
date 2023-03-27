@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daldev14/-challenge-oracle-one-alurageek.git"
+    "url": "git+https://github.com/daldev14/challenge-oracle-one-alurageek.git"
   },
   "keywords": [
     "alura",
@@ -21,7 +21,7 @@
   "author": "Daniel Amaya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daldev14/-challenge-oracle-one-alurageek/issues"
+    "url": "https://github.com/daldev14/challenge-oracle-one-alurageek/issues"
   },
-  "homepage": "https://github.com/daldev14/-challenge-oracle-one-alurageek#readme"
+  "homepage": "https://github.com/daldev14/challenge-oracle-one-alurageek#readme"
 }
